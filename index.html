@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark Industries</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <div class="begin">
+            <span><img src="logo.JPG" alt="logo" width="200px"></span>
+            <a href="javascript:alert('Em breve');"><i class="bi bi-person"></i> Meu Perfil</a>
+            <a href="javascript:alert('Em breve');"><i class="bi bi-piggy-bank"></i> Meu Portfolio</a>
+            <a href="javascript:alert('Em breve');"><i class="bi bi-person-vcard"></i> Meu Acessor</a>
+            <a href="javascript:alert('Em breve');"><i class="bi bi-envelope"></i> Chat</a>
+            <form class="search">
+                <input type="text" placeholder="Buscar">
+            </form>
+        </div>
+        <div>
+            <ul class="menu">
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Carteiras</a></li>
+                <li><a a href="#">Educacional</a>
+                    <ul>
+                        <li><a href="#">Cursos</a></li>
+                        <li><a href="#">Video Aulas</a></li>
+                    </ul>
+                <li><a href="#">Simuladores</a>
+                <li><a a href="#">Forum</a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Cryptos em destaque</h1>
+            <div class="container-carteiras">
+                <div class="carteira-card">
+                    <img src="bitcoin.jpg" alt="logo">
+                    <p>
+                        <spam>Moeda:</spam> Bitcoin (BTC)
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Lançamento:</spam> 2008
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação($):</spam> 62.506,90
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação(R$):</spam> 328.786,29
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Market Cap($):</spam> 6.531.355.495.634,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam><a href="#" onclick="abrirConversao('BTC')">Conversão</a></spam>
+                    </p>
+                </div>
+                <div class="carteira-card">
+                    <img src="ethereum.png" alt="logo">
+                    <p>
+                        <spam>Moeda:</spam> Ethereum (ETH)
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Lançamento:</spam> 2016
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação($):</spam> 3.046,66
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação(R$):</spam> 16.013,24
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Market Cap($):</spam> 1.924.438.505.675,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam><a href="#" onclick="abrirConversao('ETH')">Conversão</a></spam>
+                    </p>
+                </div>
+
+                <div class="carteira-card">
+                    <img src="cardano.png" alt="logo">
+                    <p>
+                        <spam>Moeda:</spam> Cardano (ADA)
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Lançamento:</spam> 2015
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação($):</spam> 0,45
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação(R$):</spam> 2,37
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Market Cap($):</spam> 83.891.860.023,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam><a href="#" onclick="abrirConversao('ADA')">Conversão</a></spam>
+                    </p>
+                </div>
+
+                <div class="carteira-card">
+                    <img src="dogecoin.jpg" alt="logo">
+                    <p>
+                        <spam>Moeda:</spam>Dogecoin(DOGE)
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Lançamento:</spam> 2013
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação($):</spam> 0,15
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação(R$):</spam> 0,81
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Market Cap($):</spam> 116.694.106.131,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam><a href="#" onclick="abrirConversao('DOGE')">Conversão</a></spam>
+                    </p>
+                </div>
+
+                <div class="carteira-card">
+                    <img src="tether logo.jpg" alt="logo">
+                    <p>
+                        <spam>Moeda:</spam> Tether (USDT)
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Lançamento:</spam> 2014
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação($):</spam> 1,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Cotação(R$):</spam> 5,26
+                    </p>
+                    <br>
+                    <p>
+                        <spam>Market Cap($):</spam> 387.625.304.139,00
+                    </p>
+                    <br>
+                    <p>
+                        <spam><a href="#" onclick="abrirConversao('USDT')">Conversão</a></spam>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <h1>Ultimas Noticias</h1>
+        <section class="container-noticias">
+            <div class="card">
+                <img src="https://picsum.photos/500/300" alt="Imagem da notícia">
+                <h2>Maioria dos investidores de Dogecoin, Shiba Inu e PEPE seguem no lucro apesar da correção</h2>
+                <p>
+                    No último final de semana, em meio à escalada da guerra no Oriente Médio, os preços das criptomoedas
+                    registraram uma forte correção. O Bitcoin, por exemplo, caiu de US$ 72.750 para um mínimo de US$
+                    61.079, de acordo com dados do CoinGecko. Contudo, algumas memecoins, como a Dogecoin, seguem
+                    deixando seus investidores “no azul”.
+                </p>
+                <p><a href="#">Comentar</a></p>
+            </div>
+            <div class="card">
+                <img src="https://picsum.photos/500/300" alt="Imagem da notícia">
+                <h2>Bitcoin: Otimismo e Ceticismo em Relação ao Futuro da Criptomoeda</h2>
+                <p>
+                    Será que o bitcoin vai alcançar novos patamares ou está a caminho do esquecimento? O que o futuro
+                    reserva para a mais famosa das criptomoedas? Uma pesquisa recente do Deutsche Bank, instituição
+                    financeira alemã, trouxe reflexões sobre essas questões, revelando um cenário de opiniões mistas
+                    entre os investidores de varejo. Enquanto alguns veem um futuro brilhante, outros preveem um
+                    declínio. Mas, o que realmente está por trás dessa divisão?
+                </p>
+                <p><a href="#">Comentar</a></p>
+            </div>
+
+        </section>
+
+    </main>
+    <footer>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
